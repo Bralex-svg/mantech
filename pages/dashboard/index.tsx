@@ -27,7 +27,7 @@ export default function index() {
     setGameResults(getGameResults(7));
   }, []);
   return (
-    <div className="w-screen px-12 h-screen items center justify-start bg-gray flex flex-col bg-white">
+    <div className="w-sreen px-12 h-screen items center justify-start bg-gray flex flex-col bg-white">
       <div className="flex py-1 items-center justify-between w-full">
         <div className="flex items-center justify-start px-1">
           <a href="/">
@@ -47,13 +47,13 @@ export default function index() {
           </div>
         </div>
       </div>
-      <div className="w-full my-6 items-center space-x-3 flex justify-end py-1">
+      <div className="w-full my-6 items-center space-x-1 flex justify-end py-1">
         <DatePicker />
         <button
           onClick={() => setShowModal(true)}
           datas-toggle="modal"
           data-bs-target="#modalView"
-          className="flex  sm:w-[10%] items-center justify-center w-full p-1.5 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+          className="flex items-center justify-center p-1.5 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -273,3 +273,5 @@ export default function index() {
     </div>
   );
 }
+
+
