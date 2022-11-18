@@ -8,9 +8,10 @@
   "dependencies": {
     "cm-chessboard": "^5.4.4",
     "dayjs": "^1.11.6",
-    "next": "latest",
+    "next": "^13.0.4-canary.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
     "uninstall": "^0.0.0"
   },
   "devDependencies": {

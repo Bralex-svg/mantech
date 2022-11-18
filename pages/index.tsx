@@ -9,9 +9,11 @@ const Home: NextPage = () => {
   return (
     <div className="h-screen w-screen overflow-hidden bg-red p-5">
       <div className="justify-start flex items-center pb-2 px-3">
-        <p className="text-md font-bold leading-7 font-18 text-gray-900">
-          CHESS GAMES
-        </p>
+        <a href="/">
+          <p className="text-md font-bold leading-7 font-18 text-gray-900">
+            CHESS GAMES
+          </p>
+        </a>
         <div className="flex-1" />
       </div>
       <div className="w-full h-full items-center justify-center flex flex-col bg-white space-y-2 ">
